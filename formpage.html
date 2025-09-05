@@ -1,18 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>オンライン説明会フォーム</title>
+  <title>第２回マルタ研修</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      background: linear-gradient(to bottom, #f0f4f8, #e0ecf0);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow:0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #333;
+      margin-bottom: 24px;
+      font-size: 28px;
+      line-height: 1.4;
+    }
+    h2 {
+      color: #444;
+      margin: 32px 0 16px 0;
+      font-size: 20px;
+      border-bottom: 2px solid #28a745;
+      padding-bottom: 8px;
+    }
+    .button {
+      display: inline-block;
+      width: 90%;
+      max-width: 320px;
+      margin: 12px auto;
+      padding: 16px;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: #28a745;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+      box-shadow: 0 4px 10px rgba(40, 167, 69, 0.2);
+      white-space: normal;
+      line-height: 1.4;
+    }
+    .button:hover {
+      background-color: #1e7e34;
+    }
+    .button.main-application {
+      background-color: #dc3545;
+      box-shadow: 0 4px 10px rgba(220, 53, 69, 0.2);
+      font-size: 18px;
+      margin-top: 24px;
+    }
+    .button.main-application:hover {
+      background-color: #c82333;
+    }
+    .note {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 22px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+      .button {
+        font-size: 14px;
+      }
+      .button.main-application {
+        font-size: 16px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>オンライン説明会のお申し込み</h1>
-
-  <a href="https://www.secure-cloud.jp/sf/business/1726231905zDTsmuUb" target="_blank">
-    <button>新規申し込み</button>
-  </a>
-
-  <a href="https://www.secure-cloud.jp/sf/business/1726231905zDTsmuUb" target="_blank">
-    <button>お問い合わせ</button>
-  </a>
+  <div class="container">
+    <h1>第２回マルタ研修</h1>
+    
+    <h2>説明会のお申し込み</h2>
+    
+    <div class="button" style="cursor: default;">
+      泉北高校<br>
+      9月26日(金) 16時～<br>
+      （1時間程度）<br>
+      場所：泉北高校<br>
+      締切：10月12日(日)
+    </div>
+    
+    <a class="button main-application" href="https://www.secure-cloud.jp/sf/business/1753326385CZDusIlx" target="_blank">
+      説明会に申し込む
+    </a>
+    
+    <a class="button main-application" href="https://www.secure-cloud.jp/sf/business/1753407170LwFQiqdG" target="_blank">
+      研修に申し込む
+    </a>
+    
+    <p class="note">
+      可能な限りPCドメインのメールアドレスで登録をお願いします。
+    </p>
+  </div>
 </body>
 </html>
